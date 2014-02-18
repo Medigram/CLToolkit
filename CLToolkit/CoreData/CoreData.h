@@ -9,7 +9,7 @@
 #ifndef CLToolkit_CoreData_h
 #define CLToolkit_CoreData_h
 
-#define MR_SHORTHAND
+#define MR_SHORTHAND 1
 #import <CoreData/CoreData.h>
 #import <MagicalRecord/CoreData+MagicalRecord.h>
 #import "Core.h"
