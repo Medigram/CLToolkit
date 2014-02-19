@@ -39,7 +39,7 @@
         switch (type.intValue) {
             case NSFetchedResultsChangeInsert:
                 [tableView insertRowsAtIndexPaths:@[newIndexPath]
-                                 withRowAnimation:UITableViewRowAnimationAutomatic];
+                                 withRowAnimation:UITableViewRowAnimationNone];
                 break;
             case NSFetchedResultsChangeDelete:
                 [tableView deleteRowsAtIndexPaths:@[indexPath]
@@ -53,7 +53,7 @@
                 break;
             case NSFetchedResultsChangeUpdate:
                 [tableView reloadRowsAtIndexPaths:@[indexPath]
-                                 withRowAnimation:UITableViewRowAnimationAutomatic];
+                                 withRowAnimation:UITableViewRowAnimationNone];
                 break;
         }
     }],
